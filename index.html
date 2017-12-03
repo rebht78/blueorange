@@ -20,7 +20,8 @@
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<a href="#" class="navbar-brand">
-				<h3 class="d-inline align-middle">Blue Orange</h3>
+				<img class="d-inline align-middle" src="images/blueorange_logo.png" width="100">
+				</img>
 			</a>
 			<div class="collapse navbar-collapse" id="boNavBar">
 				<ul class="navbar-nav ml-auto">
@@ -44,31 +45,75 @@
 		</div>	
 	</nav>
 
-	<!-- showcase -->
-	<section id="showcase" class="py-5">
-		<div class="primary-overlay text-white">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-6 col-sm-12 text-center">
-						<h1 class="display-2 mt-5 pt-5">
-							Are you ready to decorate...
-						</h1>
-						<p class="lead">
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.
-						</p>
-						<a href="#" class="btn btn-lg btn-primary text-white">
-							<i class="fa fa-arrow-right"></i>
-							See More
-						</a>
+	<!-- showcase carousel -->
+	<section id="showcase">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item carousel-image-1 active">
+					<div class="container">
+						<div class="carousel-caption d-none d-sm-block text-right mb-5">
+							<h1 class="display-3 text-primary">Heading 1</h1>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</p>
+							<a href="#" class="btn btn-lg btn-danger">
+								Read More
+							</a>
+						</div>
 					</div>
-					<div class="col-lg-6 col-sm-12">
-						<img src="" class="img-fluid hidden-md-down" alt="Image of Decorating Works">
+				</div>
+				<div class="carousel-item carousel-image-2">
+					<div class="container">
+						<div class="carousel-caption d-none d-sm-block mb-5">
+							<h1 class="display-3 text-primary">Heading 2</h1>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</p>
+							<a href="#" class="btn btn-lg btn-primary">
+								See More
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item carousel-image-3">
+					<div class="container">
+						<div class="carousel-caption d-none d-sm-block text-right mb-5">
+							<h1 class="display-3 text-primary">Heading 3</h1>
+							<p class="lead">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.
+							</p>
+							<a href="#" class="btn btn-lg btn-success">
+							 	Learn More
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
+			<a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+
+			<a href="#myCarousel" data-slide="next" class="carousel-control-next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+
 		</div>
 	</section>
+	
 
 	<!-- About -->
 	<section id="about" class="my-5 py-5 text-center bg-faded">

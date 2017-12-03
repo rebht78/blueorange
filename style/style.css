@@ -1,29 +1,35 @@
 body {
 	margin-top: 105px;
+	background-color: #7B435B;
 }
 .navbar {
 	box-shadow: 2px 2px 5px #3292A6;
 	opacity: 0.9;
 	background-color: #fff;
 }
-
+.text-primary {
+	color:#bcf8ec!important;
+}
+.lead {
+	color:#AED9E0;
+}
 .nav-item {
 	font-size: 1.4rem;
 	padding-right: 20px;
 }
-
-#showcase {
-	position: relative;
-	min-height: 600px;
-	background-image: url('../images/showcase_img.jpg');
-	background-repeat: no-repeat;
+.carousel-item {
+	height: 450px;
+	color:#000000;
 }
-
-.primary-overlay {
-	background-color: rgba(150,146,166,0.8);
-	position: absolute;
-	top:0;
-	left:0;
-	width: 100%;
-	height: 100%;
+.carousel-image-1 {
+	background: url("../images/showcase_img2.jpg");
+	background-size:contain;
+}
+.carousel-image-2 {
+	background: url("../images/showcase_img2.jpg");
+	background-size:contain;
+}
+.carousel-image-3 {
+	background: url("../images/showcase_img2.jpg");
+	background-size:contain;
 }
